@@ -9,6 +9,9 @@ body {
 	direction: rtl;
 	background: #fff;
 }
+a {
+	text-decoration: none;
+}
 #container {
 	position: relative;
 	margin-left: auto;
@@ -29,6 +32,7 @@ body {
 	padding-right: 1em;
 }
 .header ul {
+	list-style-type: none;
 	position: absolute;
 	bottom: 0.7em;
 	left: 0;
@@ -40,11 +44,10 @@ body {
 }
 .header ul li a{
 	color: #fff;
-	text-decoration: none;
 	padding-bottom: 0.2em;
 }
 .header ul li a:hover {
-	border-bottom: 0.2em solid #FF530D;
+	border-bottom: 0.2em solid #BF0404;
 }
 #slider {
 	position: absolute;
@@ -66,11 +69,29 @@ body {
 	height: 250px;
 	background: #F0F0F0;
 }
-#sidebar .latest-posts h4{
-	border-right: 1em  solid #FF530D;
+#sidebar .latest-posts h4 {
+	border-right: 1em  solid #BF0404;
+	border-bottom: 1px solid #217FA9;
 }
-/*
-#sidebar .latest-posts hr {
-	padding-right: 0;
+
+#sidebar .latest-posts h4:hover {
+	border-right: 1em solid #217FA9;
 }
-*/
+#sidebar .latest-posts .latest-posts-list{
+	list-style-type: none;
+	font-size: 10px;
+}
+#sidebar .latest-posts .latest-posts-list li {
+	font-weight: bold;
+	padding-right: 2em;
+	border-bottom: 1px solid #217FA9;
+}
+#sidebar .latest-posts .latest-posts-list li a {
+	color: #000;
+}
+#sidebar .latest-posts .latest-posts-list .author {
+	font-weight: normal;
+	margin-left: 0;
+	margin-right: 18em;
+	color: #67666A;
+}
