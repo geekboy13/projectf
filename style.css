@@ -60,7 +60,17 @@ body {
 	padding-top: 0.2em;
 }
 #sidebar .latest-posts {
-	width: 18em;
+	padding-right: 0.1em;
+	color: #000;
+	width: 295px;
 	height: 250px;
 	background: #F0F0F0;
 }
+#sidebar .latest-posts h4{
+	border-right: 1em  solid #FF530D;
+}
+/*
+#sidebar .latest-posts hr {
+	padding-right: 0;
+}
+*/
