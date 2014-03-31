@@ -1,0 +1,66 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Droid Arabic Kufi', serif;
+	color: #fff;
+	direction: rtl;
+	background: #fff;
+}
+#container {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50em;
+}
+#header .header {
+	width: 50em;
+	height: 5em;
+	background: #444;
+	border-bottom: 0.2em solid #217FA9;
+}
+.header h3 {
+	font-size: 30px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding-right: 1em;
+}
+.header ul {
+	position: absolute;
+	bottom: 0.7em;
+	left: 0;
+	padding-left: 3em;
+}
+.header ul li {
+	display: inline;
+	padding-right: 6em;
+}
+.header ul li a{
+	color: #fff;
+	text-decoration: none;
+	padding-bottom: 0.2em;
+}
+.header ul li a:hover {
+	border-bottom: 0.2em solid #FF530D;
+}
+#slider {
+	position: absolute;
+	float: right;
+	padding-top: 0.2em;
+}
+#slider .image {
+	width: 500px;
+	height: 250px;
+}
+#sidebar {
+	float: left;
+	padding-top: 0.2em;
+}
+#sidebar .latest-posts {
+	width: 18em;
+	height: 250px;
+	background: #F0F0F0;
+}
