@@ -12,6 +12,9 @@ body {
 a {
 	text-decoration: none;
 }
+ul {
+	list-style-type: none;
+}
 #container {
 	position: relative;
 	margin-left: auto;
@@ -32,7 +35,6 @@ a {
 	padding-right: 1em;
 }
 .header ul {
-	list-style-type: none;
 	position: absolute;
 	bottom: 0.7em;
 	left: 0;
@@ -55,7 +57,7 @@ a {
 	padding-top: 0.2em;
 }
 #slider .image {
-	width: 500px;
+	width: 550px;
 	height: 250px;
 }
 #sidebar {
@@ -65,7 +67,7 @@ a {
 #sidebar .popular-posts {
 	padding-right: 0.1em;
 	color: #000;
-	width: 295px;
+	width: 245px;
 	height: 250px;
 	background: #F0F0F0;
 }
@@ -92,11 +94,39 @@ a {
 #sidebar .popular-posts .popular-posts-list .author {
 	font-weight: normal;
 	margin-left: 0;
-	margin-right: 18em;
+	margin-right: 10em;
 	color: #67666A;
 }
 #posts {
+	width: 550px;
 	color: #000;
 	float: right;
 	position: relative;
+}
+#posts ul li {
+	padding-top: 0.5em;
+	padding-bottom: 1.5em;
+	border-bottom: 1px solid #217FA9;
+}
+#posts ul li img {
+	float: right;
+	width: 250px;
+	height: 205px;
+	padding-left: 0.2em;
+}
+#posts ul li .author {
+	color: white;
+	background: #BF0404;
+}
+#posts ul li .read-more {
+	border: 0;
+	color: white;
+	font-size: 10px;
+	font-family: 'Droid Arabic Kufi';
+	background: #BF0404;
+	border-radius: 4px;
+	float: left;
+}
+#posts ul li p {
+	font-size: 8px;
 }
