@@ -22,10 +22,13 @@ ul {
 	width: 50em;
 }
 #header .header {
+	position: relative;
 	width: 50em;
 	height: 5em;
 	background: #444;
 	border-bottom: 0.2em solid #217FA9;
+	margin-bottom: 0.3em;
+	box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
 }
 .header h3 {
 	font-size: 30px;
@@ -36,8 +39,8 @@ ul {
 }
 .header ul {
 	position: absolute;
-	bottom: 0.7em;
-	left: 0;
+	bottom: 0.5em;
+	left: 0.2em;
 	padding-left: 3em;
 }
 .header ul li {
@@ -54,22 +57,27 @@ ul {
 #slider {
 	position: relative;
 	float: right;
-	padding-top: 0.2em;
+	box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
 }
 #slider .image {
 	width: 550px;
 	height: 250px;
 }
+#sidebar img {
+	box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+	width: 245px;
+}
 #sidebar {
+	background: white;
+	width: 245px;
 	float: left;
-	padding-top: 0.2em;
 }
 #sidebar .popular-posts {
 	padding-right: 0.1em;
 	color: #000;
-	width: 245px;
 	height: 250px;
 	background: #F0F0F0;
+	box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
 }
 #sidebar .popular-posts h4 {
 	border-right: 1em  solid #BF0404;
@@ -117,16 +125,88 @@ ul {
 #posts ul li .author {
 	color: white;
 	background: #BF0404;
+	box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.4);
 }
 #posts ul li .read-more {
 	border: 0;
+	width: 80px;
 	color: white;
 	font-size: 10px;
 	font-family: 'Droid Arabic Kufi';
 	background: #BF0404;
 	border-radius: 4px;
 	float: left;
+	box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
 }
 #posts ul li p {
 	font-size: 8px;
+}
+#footer{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0.2em;
+	width: 50em;
+	background: #444;
+	box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+}
+#footer .about-us {
+	width: 25em;
+	float: right;
+}
+#footer .about-us h4 {
+	padding-bottom: 0.5em;
+	border-bottom: 1px solid white;
+}
+#footer .about-us h4,p {
+	margin-right: 2em;
+}
+#footer .about-us p {
+	font-size: 10px;
+}
+#footer .contact-us {
+	width: 25em;
+	float: left;
+}
+#footer .contact-us h4,input,textarea {
+	color: white;
+	margin-right: 3em;
+	padding-bottom: 0.5em;
+	box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+}
+#footer .contact-us input,textarea {
+	border: 0;
+}
+#footer .contact-us input {
+	margin-top: 0.5em;
+	background: #333;
+}
+#footer .contact-us button {
+	width: 80px;
+	height: 25px;
+	border: 0;
+	font-size: 10px;
+	font-family: 'Droid Arabic Kufi';
+	background: #217FA9;
+	color: white;
+	box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+}
+#footer .contact-us textarea {
+	margin-top: 0.5em;
+	background: #333;
+	max-width: 320px;
+	min-width: 320px;
+	max-height: 130px;
+	min-height: 130px;
+	margin-right: 3.5em;
+}
+#footer .contact-us h4 {
+	border-bottom: 1px solid white;
+}
+#footer, .push {
+	height: 14em;
+	clear: both;
+}
+.push {
+	height: 1em;
 }
