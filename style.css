@@ -50,7 +50,7 @@ a {
 	border-bottom: 0.2em solid #BF0404;
 }
 #slider {
-	position: absolute;
+	position: relative;
 	float: right;
 	padding-top: 0.2em;
 }
@@ -62,36 +62,41 @@ a {
 	float: left;
 	padding-top: 0.2em;
 }
-#sidebar .latest-posts {
+#sidebar .popular-posts {
 	padding-right: 0.1em;
 	color: #000;
 	width: 295px;
 	height: 250px;
 	background: #F0F0F0;
 }
-#sidebar .latest-posts h4 {
+#sidebar .popular-posts h4 {
 	border-right: 1em  solid #BF0404;
 	border-bottom: 1px solid #217FA9;
 }
 
-#sidebar .latest-posts h4:hover {
+#sidebar .popular-posts h4:hover {
 	border-right: 1em solid #217FA9;
 }
-#sidebar .latest-posts .latest-posts-list{
+#sidebar .popular-posts .popular-posts-list{
 	list-style-type: none;
 	font-size: 10px;
 }
-#sidebar .latest-posts .latest-posts-list li {
+#sidebar .popular-posts .popular-posts-list li {
 	font-weight: bold;
 	padding-right: 2em;
 	border-bottom: 1px solid #217FA9;
 }
-#sidebar .latest-posts .latest-posts-list li a {
+#sidebar .popular-posts .popular-posts-list li a {
 	color: #000;
 }
-#sidebar .latest-posts .latest-posts-list .author {
+#sidebar .popular-posts .popular-posts-list .author {
 	font-weight: normal;
 	margin-left: 0;
 	margin-right: 18em;
 	color: #67666A;
+}
+#posts {
+	color: #000;
+	float: right;
+	position: relative;
 }
